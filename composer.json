@@ -8,6 +8,9 @@
             "email": "huanghanzen@gmail.com"
         }
     ],
+    "support": {
+        "source": "https://github.com/rockman84/yii2-openui5"
+    },
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0",
@@ -16,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sky\\openui5\\": "src"
+            "sky\\openui5\\": "src/"
         }
     }
 }
