@@ -1,0 +1,22 @@
+{
+    "name": "sky/yii2-openui5",
+    "description": "asset openui5 for yii2",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Hansen Wong",
+            "email": "huanghanzen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "~2.0",
+        "bower-asset/openui5": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sky\\openui5\\": "src"
+        }
+    }
+}

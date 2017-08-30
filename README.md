@@ -1,1 +1,1 @@
-# yii-openui5
+# yii2-openui5
