@@ -1,12 +1,12 @@
 <?php
-namespace sky\openui;
+namespace sky\openui5;
 
 use yii\web\View;
 use yii\helpers\ArrayHelper;
 
 class OpenUiAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@bower/openui5';
+    public $sourcePath = '@bower/openui5-sap.ui.core/resources';
     
     public function init() {
         parent::init();
