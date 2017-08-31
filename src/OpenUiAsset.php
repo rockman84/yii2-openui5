@@ -7,6 +7,8 @@ use yii\helpers\ArrayHelper;
 use \yii\web\AssetBundle;
 
 /**
+ * OpenUiAsset represents a collection of asset resources [OpenUi5](http://openui5.org)
+ *  
  * AssetBundle represents a collection of asset files, such as CSS, JS, images.
  *
  * Each asset bundle has a unique name that globally identifies it among all asset bundles used in an application.
@@ -58,11 +60,13 @@ class OpenUiAsset extends AssetBundle
         return [
             'position' => View::POS_HEAD,
             'id' => 'sap-ui-bootstrap',
-            'data-sap-ui-theme' => 'sap_bluecrystal',
-            'data-sap-ui-libs' => 'sap.m,sap.ui.commons,sap.ui.ux3',
-            'data-sap-ui-preload' => 'async',
-            'data-sap-ui-compatVersion' => 'edge',
-            'data-sap-ui-resourceroots' => $this->getResourceRoots(),
+            'data' => [
+                'sap-ui-theme' => 'sap_belize',
+                'sap-ui-libs' => 'sap.m,sap.ui.commons',
+                'sap-ui-preload' => 'async',
+                'sap-ui-compatVersion' => 'edge',
+                'sap-ui-resourceroots' => $this->getResourceRoots()
+            ],
         ];
     }
     
@@ -72,17 +76,16 @@ class OpenUiAsset extends AssetBundle
      */
     protected function getResourceRoots()
     {
+        $resource = [];
         if ($this->appAssets) {
             $am = Yii::$app->assetManager;
-            $resource = [];
             foreach ($this->appAssets as $name => $class) {
                 if ($bundle = $am->getBundle($class)) {
                     $this->depends[] = $class;
                     $resource[$name] = $bundle->baseUrl;
                 }
             }
-            return $resource;
         }
-        return [];
+        return $resource;
     }
 }

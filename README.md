@@ -58,6 +58,12 @@ class YourAppAsset extends \sky\openui5\OpenUiAsset
     public $appAssets = [
         'myapp' => 'app\assets\MyAppAsset',
     ];
+
+    public $jsOptions = [
+        'data' => [
+            'sap-ui-theme' => 'sap_belize'
+        ]
+    ];
 }
 ```
 
