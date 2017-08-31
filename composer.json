@@ -2,6 +2,8 @@
     "name": "sky/yii2-openui5",
     "description": "asset openui5 for yii2",
     "type": "yii2-extension",
+    "license": "Apache License 2.0",
+    "homepage": "https://rockman84.github.io/yii2-openui5/",
     "authors": [
         {
             "name": "Hansen Wong",
@@ -9,6 +11,7 @@
         }
     ],
     "support": {
+        "issues": "https://github.com/rockman84/yii2-openui5/issues?state=open",
         "source": "https://github.com/rockman84/yii2-openui5"
     },
     "minimum-stability": "dev",
