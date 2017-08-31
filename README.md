@@ -38,10 +38,30 @@ example:
     ];
 ```
 
-### Extending Asset
+### Advanced Use
+create new file MyAppAsset.php
 ```php
-class YourAsset extends \sky\openui5\OpenUiAsset
+namespace app\assets;
+
+class MyAppAsset extends \yii\web\AssetBundle
 {
-    public $jsOptions = [];
+    public $sourcePath = '@app/assets/myapp';
 }
+```
+
+create new file YourAppAsset.php
+```php
+namespace app\assets;
+
+class YourAppAsset extends \sky\openui5\OpenUiAsset
+{
+    public $appAssets = [
+        'myapp' => 'app\assets\MyAppAsset',
+    ];
+}
+```
+
+at your view
+```php
+YourAppAsset::register($this);
 ```
