@@ -18,7 +18,10 @@
     "require": {
         "yiisoft/yii2": "~2.0",
         "yiisoft/yii2-bootstrap": "~2.0",
-        "bower-asset/openui5-sap.ui.core": "~1.0"
+        "bower-asset/openui5-sap.ui.core": "~1.0",
+        "bower-asset/openui5-sap.ui.layout": "~1.0",
+        "bower-asset/openui5-sap.m": "~1.0",
+        "bower-asset/openui5-themelib_sap_belize": "~1.0"
     },
     "autoload": {
         "psr-4": {
