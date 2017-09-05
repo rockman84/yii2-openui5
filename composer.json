@@ -18,11 +18,22 @@
     "require": {
         "yiisoft/yii2": "~2.0",
         "bower-asset/openui5-sap.ui.core": "*",
-        "bower-asset/openui5-sap.m": "*",
         "bower-asset/openui5-sap.ui.layout": "*",
         "bower-asset/openui5-sap.ui.support": "*",
+        "bower-asset/openui5-sap.ui.commons": "*",
+        "bower-asset/openui5-sap.ui.ux3": "*",
+        "bower-asset/openui5-sap.ui.table": "*",
+        "bower-asset/openui5-sap.ui.suite": "*",
+        "bower-asset/openui5-sap.ui.codeeditor": "*",
+        "bower-asset/openui5-sap.ui.fl": "*",
+        "bower-asset/openui5-sap.ui.dt": "*",
+        "bower-asset/openui5-sap.m": "*",
+        "bower-asset/openui5-sap.f": "*",
+        "bower-asset/openui5-sap.tnt": "*",
+        "bower-asset/openui5-sap.uxap": "*",
         "bower-asset/openui5-themelib_sap_belize": "*",
-        "bower-asset/openui5-themelib_sap_goldreflection": "*"
+        "bower-asset/openui5-themelib_sap_goldreflection": "*",
+        "bower-asset/openui5-themelib_sap_bluecrystal": "*"
     },
     "autoload": {
         "psr-4": {
