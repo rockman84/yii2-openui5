@@ -22,7 +22,7 @@
         "bower-asset/packaged-sap.ui.layout": "*",
         "bower-asset/packaged-sap.ui.support": "*",
         "bower-asset/packaged-themelib_sap_belize": "*",
-        "bower-asset/packaged-themelib_sap_goldreflection": "*",
+        "bower-asset/packaged-themelib_sap_goldreflection": "*"
     },
     "autoload": {
         "psr-4": {
