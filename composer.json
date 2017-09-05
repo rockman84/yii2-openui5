@@ -19,7 +19,6 @@
         "yiisoft/yii2": "~2.0",
         "bower-asset/openui5-sap.ui.core": "*",
         "bower-asset/openui5-sap.ui.layout": "*",
-        "bower-asset/openui5-sap.ui.support": "*",
         "bower-asset/openui5-sap.ui.commons": "*",
         "bower-asset/openui5-sap.ui.ux3": "*",
         "bower-asset/openui5-sap.ui.table": "*",
