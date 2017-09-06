@@ -17,22 +17,12 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0",
-        "bower-asset/openui5-sap.ui.core": "~1.0",
-        "bower-asset/openui5-sap.ui.layout": "~1.0",
-        "bower-asset/openui5-sap.ui.commons": "~1.0",
-        "bower-asset/openui5-sap.ui.ux3": "~1.0",
-        "bower-asset/openui5-sap.ui.table": "~1.0",
-        "bower-asset/openui5-sap.ui.suite": "~1.0",
-        "bower-asset/openui5-sap.ui.codeeditor": "~1.0",
-        "bower-asset/openui5-sap.ui.fl": "~1.0",
-        "bower-asset/openui5-sap.ui.dt": "~1.0",
-        "bower-asset/openui5-sap.m": "~1.0",
-        "bower-asset/openui5-sap.f": "~1.0",
-        "bower-asset/openui5-sap.tnt": "~1.0",
-        "bower-asset/openui5-sap.uxap": "~1.0",
-        "bower-asset/openui5-themelib_sap_belize": "~1.0",
-        "bower-asset/openui5-themelib_sap_goldreflection": "~1.0",
-        "bower-asset/openui5-themelib_sap_bluecrystal": "~1.0"
+        "bower-asset/openui5-sap.ui.core": "~1.2",
+        "bower-asset/openui5-sap.ui.commons": "~1.2",
+        "bower-asset/openui5-sap.ui.ux3": "~1.2",
+        "bower-asset/openui5-sap.ui.table": "~1.2",
+        "bower-asset/openui5-sap.m": "~1.2",
+        "bower-asset/openui5-themelib_sap_belize": "~1.2",
     },
     "autoload": {
         "psr-4": {
