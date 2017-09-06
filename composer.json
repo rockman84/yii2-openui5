@@ -22,7 +22,7 @@
         "bower-asset/openui5-sap.ui.ux3": "~1.2",
         "bower-asset/openui5-sap.ui.table": "~1.2",
         "bower-asset/openui5-sap.m": "~1.2",
-        "bower-asset/openui5-themelib_sap_belize": "~1.2",
+        "bower-asset/openui5-themelib_sap_belize": "~1.2"
     },
     "autoload": {
         "psr-4": {
