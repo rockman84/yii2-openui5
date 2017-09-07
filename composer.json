@@ -16,25 +16,13 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0"
+        "yiisoft/yii2": "~2.0",
+        "bower-asset/openui5-sap.m": "1.44.19"
     },
     "autoload": {
         "psr-4": {
             "sky\\openui5\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type":"package",
-            "package": {
-              "name": "SAP/openui5",
-              "version":"~1.50",
-              "source": {
-                  "url": "https://github.com/SAP/openui5.git",
-                  "type": "git",
-                  "reference":"~1.50"
-                }
-            }
-        }
-    ]
+    
 }
