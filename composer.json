@@ -17,7 +17,11 @@
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0",
-        "bower-asset/openui5-sap.m": "*"
+        "bower-asset/openui5-sap.m": "*",
+        "bower-asset/openui5-sap.ui.ux3": "*",
+        "bower-asset/openui5-themelib_sap_belize" : "*",
+        "bower-asset/openui5-sap.ui.layout" : "*",
+        "bower-asset/openui5-sap.ui.table" : "*"
     },
     "autoload": {
         "psr-4": {
