@@ -7,16 +7,19 @@ yii2-openui5
 
 How To Install?
 ---------------
-via composer
+via composer run
 ```
-composer require sky\yii2-openui5 "dev-master"
+php composer.phar require sky\yii2-openui5 "*"
 ```
 
-or add in composer.json
+or add in composer.json to require selection
 
 ```
-"sky\yii2-openui5" : "dev-master"
+"sky\yii2-openui5" : "*"
 ```
+- [download Openui5](http://openui5.org/download.html) sdk or runtime
+- extract zip file
+- copy all files inside openui5-xxx-xxx folder to  folder vendor/sky/yii2-openui5/src/assets/openui5
 
 How To Use?
 -----------

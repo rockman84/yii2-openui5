@@ -25,8 +25,7 @@ use \yii\web\AssetBundle;
 
 class OpenUiAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/openui5-sap.ui.core/resources';
-    
+    public $sourcePath = '@sky/yii2-openui5/assets/openui5';
     /**
      * @var array list application register
      * 
@@ -46,7 +45,7 @@ class OpenUiAsset extends AssetBundle
     public function init() {
         parent::init();
         if (!$this->js) {
-            $this->js = [YII_ENV_DEV ? 'sap-ui-core.js' : 'sap-ui-core-dbg.js'];
+            $this->js = [YII_ENV_DEV ? 'resources/sap-ui-core.js' : 'resources/sap-ui-core-dbg.js'];
         }
         $this->jsOptions = ArrayHelper::merge($this->jsOptions(), $this->jsOptions);
     }
