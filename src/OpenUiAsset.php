@@ -25,7 +25,7 @@ use \yii\web\AssetBundle;
 
 class OpenUiAsset extends AssetBundle
 {
-    public $sourcePath = '@sky/yii2-openui5/assets/openui5';
+    public $sourcePath = '@vendor/sky/yii2-openui5/src/assets/openui5';
     /**
      * @var array list application register
      * 

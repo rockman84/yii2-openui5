@@ -17,6 +17,7 @@ or add in composer.json to require selection
 ```
 "sky\yii2-openui5" : "*"
 ```
+Next step (Why do this? I'm try using bower but not compatible with Yii2 Asset structure):
 - [download Openui5](http://openui5.org/download.html) sdk or runtime
 - extract zip file
 - copy all files inside openui5-xxx-xxx folder to  folder vendor/sky/yii2-openui5/src/assets/openui5
