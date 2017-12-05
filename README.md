@@ -9,13 +9,13 @@ How To Install?
 ---------------
 via composer run
 ```
-php composer.phar require sky\yii2-openui5 "*"
+php composer.phar require sky/yii2-openui5 "*"
 ```
 
 or add in composer.json to require selection
 
 ```
-"sky\yii2-openui5" : "*"
+"sky/yii2-openui5" : "*"
 ```
 Next step (Why do this? I'm try using bower but not compatible with Yii2 Asset structure):
 - [download Openui5](http://openui5.org/download.html) sdk or runtime
