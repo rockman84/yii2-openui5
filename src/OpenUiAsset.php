@@ -32,7 +32,7 @@ class OpenUiAsset extends AssetBundle
      * For Example:
      * 
      * ```php
-     * public $appAsset = [
+     * public $appAssets = [
      *      'myapp' => 'app\assets\MyAppAsset',
      *      'mymod' => 'app\assets\MyModuleAsset'
      * ];
