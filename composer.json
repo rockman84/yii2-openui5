@@ -2,7 +2,7 @@
     "name": "sky/yii2-openui5",
     "description": "asset openui5 for yii2",
     "type": "yii2-extension",
-    "license": "Apache License 2.0",
+    "license": "Apache-2.0",
     "homepage": "https://rockman84.github.io/yii2-openui5/",
     "authors": [
         {
